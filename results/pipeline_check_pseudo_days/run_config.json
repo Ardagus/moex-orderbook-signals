@@ -1,0 +1,39 @@
+{
+  "session": "evening",
+  "fee": 0.0005,
+  "theta": "2 * (half_spread(t) + fee)",
+  "embargo_s": 60,
+  "lgbm_params": {
+    "n_estimators": 200,
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_child_samples": 100,
+    "subsample": 0.8,
+    "subsample_freq": 1,
+    "colsample_bytree": 0.8,
+    "random_state": 0,
+    "verbose": -1
+  },
+  "ridge_alpha": 1.0,
+  "features": [
+    "spread_ticks",
+    "spread_pct",
+    "micro_minus_mid",
+    "imb_1",
+    "imb_5",
+    "imb_10",
+    "ofi_5",
+    "ofi_30",
+    "ofi_60",
+    "tib_5",
+    "tib_30",
+    "tib_60",
+    "ret_5",
+    "ret_30",
+    "ret_60",
+    "rv_5",
+    "rv_30",
+    "rv_60"
+  ],
+  "smoke_test_block_minutes": 3.0
+}

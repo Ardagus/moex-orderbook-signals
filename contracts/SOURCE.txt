@@ -1,0 +1,2 @@
+﻿Source: https://github.com/RussianInvestments/investAPI (official GitHub, src/docs/contracts)
+Commit: 3eaf23a25f598fe483c913184acdbd9132bc68d2 2025-11-07 13:15:50 +0300

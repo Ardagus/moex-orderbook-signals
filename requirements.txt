@@ -1,0 +1,6 @@
+grpcio
+grpcio-tools   # только для gen_proto.py (генерация клиента из contracts/)
+protobuf
+pandas
+pyarrow
+pytest
